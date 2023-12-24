@@ -1,0 +1,587 @@
+2023-12-25 01:46:27 - Starting InternetMonitorApplication using Java 19.0.2 with PID 13600 (E:\Work\personalProjects\Repo\internet-monitor\target\classes started by Admin in E:\Work\personalProjects\Repo\internet-monitor)
+2023-12-25 01:46:27 - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 01:46:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-25 01:46:29 - Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2023-12-25 01:46:31 - Tomcat initialized with port 8080 (http)
+2023-12-25 01:46:31 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-25 01:46:31 - Starting service [Tomcat]
+2023-12-25 01:46:31 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2023-12-25 01:46:31 - Initializing Spring embedded WebApplicationContext
+2023-12-25 01:46:31 - Root WebApplicationContext: initialization completed in 3182 ms
+2023-12-25 01:46:31 - HikariPool-1 - Starting...
+2023-12-25 01:46:32 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3caafa67
+2023-12-25 01:46:32 - HikariPool-1 - Start completed.
+2023-12-25 01:46:32 - Set default schema name to public
+2023-12-25 01:46:33 - Reading from public.databasechangelog
+2023-12-25 01:46:34 - Reading from public.databasechangelog
+2023-12-25 01:46:34 - UPDATE SUMMARY
+2023-12-25 01:46:34 - Run:                          0
+2023-12-25 01:46:34 - Previously run:               2
+2023-12-25 01:46:34 - Filtered out:                 0
+2023-12-25 01:46:34 - -------------------------------
+2023-12-25 01:46:34 - Total change sets:            2
+2023-12-25 01:46:34 - Update summary generated
+2023-12-25 01:46:34 - Successfully released change log lock
+2023-12-25 01:46:34 - Command execution complete
+2023-12-25 01:46:34 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-25 01:46:34 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2023-12-25 01:46:34 - HHH000026: Second-level cache disabled
+2023-12-25 01:46:34 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-25 01:46:35 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-25 01:46:36 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-25 01:46:36 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-25 01:46:38 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-25 01:46:40 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-25 01:46:41 - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-25 01:46:41 - Tomcat started on port 8080 (http) with context path ''
+2023-12-25 01:46:41 - Started InternetMonitorApplication in 15.786 seconds (process running for 18.009)
+2023-12-25 01:46:55 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-25 01:46:55 - HikariPool-1 - Shutdown initiated...
+2023-12-25 01:46:55 - HikariPool-1 - Shutdown completed.
+2023-12-25 01:47:05 - Starting InternetMonitorApplication using Java 19.0.2 with PID 9612 (E:\Work\personalProjects\Repo\internet-monitor\target\classes started by Admin in E:\Work\personalProjects\Repo\internet-monitor)
+2023-12-25 01:47:05 - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 01:47:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-25 01:47:08 - Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interface.
+2023-12-25 01:47:10 - Tomcat initialized with port 8080 (http)
+2023-12-25 01:47:10 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-25 01:47:10 - Starting service [Tomcat]
+2023-12-25 01:47:10 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2023-12-25 01:47:10 - Initializing Spring embedded WebApplicationContext
+2023-12-25 01:47:10 - Root WebApplicationContext: initialization completed in 4850 ms
+2023-12-25 01:47:11 - HikariPool-1 - Starting...
+2023-12-25 01:47:11 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6367a688
+2023-12-25 01:47:11 - HikariPool-1 - Start completed.
+2023-12-25 01:47:12 - Set default schema name to public
+2023-12-25 01:47:14 - Reading from public.databasechangelog
+2023-12-25 01:47:14 - Reading from public.databasechangelog
+2023-12-25 01:47:14 - UPDATE SUMMARY
+2023-12-25 01:47:14 - Run:                          0
+2023-12-25 01:47:14 - Previously run:               2
+2023-12-25 01:47:14 - Filtered out:                 0
+2023-12-25 01:47:14 - -------------------------------
+2023-12-25 01:47:14 - Total change sets:            2
+2023-12-25 01:47:14 - Update summary generated
+2023-12-25 01:47:14 - Successfully released change log lock
+2023-12-25 01:47:14 - Command execution complete
+2023-12-25 01:47:15 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-25 01:47:16 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2023-12-25 01:47:16 - HHH000026: Second-level cache disabled
+2023-12-25 01:47:17 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-25 01:47:18 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-25 01:47:20 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-25 01:47:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-25 01:47:21 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-25 01:47:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-25 01:47:24 - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-25 01:47:24 - Tomcat started on port 8080 (http) with context path ''
+2023-12-25 01:47:24 - Started InternetMonitorApplication in 20.089 seconds (process running for 23.331)
+2023-12-25 01:48:06 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-25 01:48:06 - Initializing Servlet 'dispatcherServlet'
+2023-12-25 01:48:06 - Completed initialization in 0 ms
+2023-12-25 01:50:45 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m32s681ms701µs500ns).
+2023-12-25 01:50:45 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Error while executing the command!] with root cause
+java.lang.RuntimeException: Error while executing the command!
+	at com.gobartsdev.internetmonitor.service.IcmpServiceImpl.testPing(IcmpServiceImpl.java:163)
+	at com.gobartsdev.internetmonitor.controller.IcmpController.testPing(IcmpController.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-12-25 01:50:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-25 01:50:45 - HikariPool-1 - Shutdown initiated...
+2023-12-25 01:50:45 - HikariPool-1 - Shutdown completed.
+2023-12-25 01:50:55 - Starting InternetMonitorApplication using Java 19.0.2 with PID 1552 (E:\Work\personalProjects\Repo\internet-monitor\target\classes started by Admin in E:\Work\personalProjects\Repo\internet-monitor)
+2023-12-25 01:50:55 - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 01:50:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-25 01:50:57 - Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interface.
+2023-12-25 01:50:58 - Tomcat initialized with port 8080 (http)
+2023-12-25 01:50:58 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-25 01:50:58 - Starting service [Tomcat]
+2023-12-25 01:50:58 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2023-12-25 01:50:59 - Initializing Spring embedded WebApplicationContext
+2023-12-25 01:50:59 - Root WebApplicationContext: initialization completed in 3267 ms
+2023-12-25 01:50:59 - HikariPool-1 - Starting...
+2023-12-25 01:51:00 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6367a688
+2023-12-25 01:51:00 - HikariPool-1 - Start completed.
+2023-12-25 01:51:00 - Set default schema name to public
+2023-12-25 01:51:02 - Reading from public.databasechangelog
+2023-12-25 01:51:02 - Reading from public.databasechangelog
+2023-12-25 01:51:02 - UPDATE SUMMARY
+2023-12-25 01:51:02 - Run:                          0
+2023-12-25 01:51:02 - Previously run:               2
+2023-12-25 01:51:02 - Filtered out:                 0
+2023-12-25 01:51:02 - -------------------------------
+2023-12-25 01:51:02 - Total change sets:            2
+2023-12-25 01:51:02 - Update summary generated
+2023-12-25 01:51:02 - Successfully released change log lock
+2023-12-25 01:51:02 - Command execution complete
+2023-12-25 01:51:03 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-25 01:51:03 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2023-12-25 01:51:03 - HHH000026: Second-level cache disabled
+2023-12-25 01:51:03 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-25 01:51:04 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-25 01:51:06 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-25 01:51:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-25 01:51:07 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-25 01:51:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-25 01:51:09 - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-25 01:51:09 - Tomcat started on port 8080 (http) with context path ''
+2023-12-25 01:51:09 - Started InternetMonitorApplication in 14.812 seconds (process running for 16.083)
+2023-12-25 01:51:09 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-25 01:51:09 - Initializing Servlet 'dispatcherServlet'
+2023-12-25 01:51:09 - Completed initialization in 0 ms
+2023-12-25 01:55:19 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-25 01:55:19 - HikariPool-1 - Shutdown initiated...
+2023-12-25 01:55:19 - HikariPool-1 - Shutdown completed.
+2023-12-25 01:55:28 - Starting InternetMonitorApplication using Java 19.0.2 with PID 15364 (E:\Work\personalProjects\Repo\internet-monitor\target\classes started by Admin in E:\Work\personalProjects\Repo\internet-monitor)
+2023-12-25 01:55:28 - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 01:55:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-25 01:55:30 - Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interface.
+2023-12-25 01:55:31 - Tomcat initialized with port 8080 (http)
+2023-12-25 01:55:31 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-25 01:55:31 - Starting service [Tomcat]
+2023-12-25 01:55:31 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2023-12-25 01:55:31 - Initializing Spring embedded WebApplicationContext
+2023-12-25 01:55:31 - Root WebApplicationContext: initialization completed in 3574 ms
+2023-12-25 01:55:32 - HikariPool-1 - Starting...
+2023-12-25 01:55:32 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6367a688
+2023-12-25 01:55:32 - HikariPool-1 - Start completed.
+2023-12-25 01:55:33 - Set default schema name to public
+2023-12-25 01:55:34 - Reading from public.databasechangelog
+2023-12-25 01:55:34 - Reading from public.databasechangelog
+2023-12-25 01:55:34 - UPDATE SUMMARY
+2023-12-25 01:55:34 - Run:                          0
+2023-12-25 01:55:34 - Previously run:               2
+2023-12-25 01:55:34 - Filtered out:                 0
+2023-12-25 01:55:34 - -------------------------------
+2023-12-25 01:55:34 - Total change sets:            2
+2023-12-25 01:55:34 - Update summary generated
+2023-12-25 01:55:34 - Successfully released change log lock
+2023-12-25 01:55:34 - Command execution complete
+2023-12-25 01:55:34 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-25 01:55:34 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2023-12-25 01:55:34 - HHH000026: Second-level cache disabled
+2023-12-25 01:55:35 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-25 01:55:35 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-25 01:55:36 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-25 01:55:36 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-25 01:55:37 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-25 01:55:38 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-25 01:55:40 - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-25 01:55:41 - Tomcat started on port 8080 (http) with context path ''
+2023-12-25 01:55:41 - Started InternetMonitorApplication in 14.167 seconds (process running for 15.33)
+2023-12-25 01:55:42 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-25 01:55:42 - Initializing Servlet 'dispatcherServlet'
+2023-12-25 01:55:42 - Completed initialization in 1 ms
+2023-12-25 01:58:44 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-25 01:58:44 - HikariPool-1 - Shutdown initiated...
+2023-12-25 01:58:44 - HikariPool-1 - Shutdown completed.
+2023-12-25 01:58:52 - Starting InternetMonitorApplication using Java 19.0.2 with PID 20816 (E:\Work\personalProjects\Repo\internet-monitor\target\classes started by Admin in E:\Work\personalProjects\Repo\internet-monitor)
+2023-12-25 01:58:52 - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 01:58:54 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-25 01:58:54 - Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interface.
+2023-12-25 01:58:56 - Tomcat initialized with port 8080 (http)
+2023-12-25 01:58:56 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-25 01:58:56 - Starting service [Tomcat]
+2023-12-25 01:58:56 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2023-12-25 01:58:56 - Initializing Spring embedded WebApplicationContext
+2023-12-25 01:58:56 - Root WebApplicationContext: initialization completed in 3637 ms
+2023-12-25 01:58:57 - HikariPool-1 - Starting...
+2023-12-25 01:58:57 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@202d9236
+2023-12-25 01:58:57 - HikariPool-1 - Start completed.
+2023-12-25 01:58:57 - Set default schema name to public
+2023-12-25 01:58:59 - Reading from public.databasechangelog
+2023-12-25 01:58:59 - Reading from public.databasechangelog
+2023-12-25 01:58:59 - UPDATE SUMMARY
+2023-12-25 01:58:59 - Run:                          0
+2023-12-25 01:58:59 - Previously run:               2
+2023-12-25 01:58:59 - Filtered out:                 0
+2023-12-25 01:58:59 - -------------------------------
+2023-12-25 01:58:59 - Total change sets:            2
+2023-12-25 01:58:59 - Update summary generated
+2023-12-25 01:58:59 - Successfully released change log lock
+2023-12-25 01:58:59 - Command execution complete
+2023-12-25 01:58:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-25 01:58:59 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2023-12-25 01:58:59 - HHH000026: Second-level cache disabled
+2023-12-25 01:59:00 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-25 01:59:00 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-25 01:59:01 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-25 01:59:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-25 01:59:02 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-25 01:59:03 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-25 01:59:03 - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-25 01:59:03 - Tomcat started on port 8080 (http) with context path ''
+2023-12-25 01:59:03 - Started InternetMonitorApplication in 12.408 seconds (process running for 13.455)
+2023-12-25 01:59:03 - Regular task performed at 2023-12-25T01:59:03.899670
+2023-12-25 01:59:13 - Regular task performed at 2023-12-25T01:59:13.887071600
+2023-12-25 01:59:23 - Regular task performed at 2023-12-25T01:59:23.884723400
+2023-12-25 01:59:33 - Regular task performed at 2023-12-25T01:59:33.889666500
+2023-12-25 01:59:43 - Regular task performed at 2023-12-25T01:59:43.892556800
+2023-12-25 01:59:53 - Regular task performed at 2023-12-25T01:59:53.893029
+2023-12-25 02:00:03 - Regular task performed at 2023-12-25T02:00:03.888380600
+2023-12-25 02:00:13 - Regular task performed at 2023-12-25T02:00:13.882928800
+2023-12-25 02:00:23 - Regular task performed at 2023-12-25T02:00:23.881497900
+2023-12-25 02:00:33 - Regular task performed at 2023-12-25T02:00:33.893829
+2023-12-25 02:00:43 - Regular task performed at 2023-12-25T02:00:43.895078400
+2023-12-25 02:00:53 - Regular task performed at 2023-12-25T02:00:53.895298800
+2023-12-25 02:01:03 - Regular task performed at 2023-12-25T02:01:03.881546900
+2023-12-25 02:01:13 - Regular task performed at 2023-12-25T02:01:13.890319600
+2023-12-25 02:01:23 - Regular task performed at 2023-12-25T02:01:23.882684300
+2023-12-25 02:01:33 - Regular task performed at 2023-12-25T02:01:33.891093100
+2023-12-25 02:01:43 - Regular task performed at 2023-12-25T02:01:43.881114300
+2023-12-25 02:01:53 - Regular task performed at 2023-12-25T02:01:53.882261
+2023-12-25 02:02:03 - Regular task performed at 2023-12-25T02:02:03.889206400
+2023-12-25 02:02:18 - Regular task performed at 2023-12-25T02:02:18.824856700
+2023-12-25 02:02:26 - Regular task performed at 2023-12-25T02:02:26.032137500
+2023-12-25 02:02:33 - Regular task performed at 2023-12-25T02:02:33.883065700
+2023-12-25 02:02:43 - Regular task performed at 2023-12-25T02:02:43.893640800
+2023-12-25 02:02:53 - Regular task performed at 2023-12-25T02:02:53.895518500
+2023-12-25 02:03:03 - Regular task performed at 2023-12-25T02:03:03.881592900
+2023-12-25 02:03:13 - Regular task performed at 2023-12-25T02:03:13.885670700
+2023-12-25 02:03:23 - Regular task performed at 2023-12-25T02:03:23.894668800
+2023-12-25 02:03:33 - Regular task performed at 2023-12-25T02:03:33.888448500
+2023-12-25 02:03:43 - Regular task performed at 2023-12-25T02:03:43.890593600
+2023-12-25 02:03:53 - Regular task performed at 2023-12-25T02:03:53.882054600
+2023-12-25 02:04:04 - Regular task performed at 2023-12-25T02:04:04.932887200
+2023-12-25 02:04:13 - Regular task performed at 2023-12-25T02:04:13.887954800
+2023-12-25 02:04:23 - Regular task performed at 2023-12-25T02:04:23.891030800
+2023-12-25 02:04:33 - Regular task performed at 2023-12-25T02:04:33.894175400
+2023-12-25 02:04:43 - Regular task performed at 2023-12-25T02:04:43.891710800
+2023-12-25 02:04:53 - Regular task performed at 2023-12-25T02:04:53.883186300
+2023-12-25 02:05:03 - Regular task performed at 2023-12-25T02:05:03.893924600
+2023-12-25 02:05:13 - Regular task performed at 2023-12-25T02:05:13.892569400
+2023-12-25 02:05:23 - Regular task performed at 2023-12-25T02:05:23.893933200
+2023-12-25 02:05:33 - Regular task performed at 2023-12-25T02:05:33.884153900
+2023-12-25 02:05:43 - Regular task performed at 2023-12-25T02:05:43.892302800
+2023-12-25 02:05:53 - Regular task performed at 2023-12-25T02:05:53.894325800
+2023-12-25 02:06:03 - Regular task performed at 2023-12-25T02:06:03.896300800
+2023-12-25 02:06:13 - Regular task performed at 2023-12-25T02:06:13.884082
+2023-12-25 02:06:23 - Regular task performed at 2023-12-25T02:06:23.892053400
+2023-12-25 02:06:33 - Regular task performed at 2023-12-25T02:06:33.881397600
+2023-12-25 02:06:43 - Regular task performed at 2023-12-25T02:06:43.882513600
+2023-12-25 02:06:53 - Regular task performed at 2023-12-25T02:06:53.888015300
+2023-12-25 02:07:03 - Regular task performed at 2023-12-25T02:07:03.885779400
+2023-12-25 02:07:13 - Regular task performed at 2023-12-25T02:07:13.890681200
+2023-12-25 02:07:23 - Regular task performed at 2023-12-25T02:07:23.885187600
+2023-12-25 02:07:33 - Regular task performed at 2023-12-25T02:07:33.886671
+2023-12-25 02:07:43 - Regular task performed at 2023-12-25T02:07:43.896467600
+2023-12-25 02:07:53 - Regular task performed at 2023-12-25T02:07:53.884415100
+2023-12-25 02:08:05 - Regular task performed at 2023-12-25T02:08:05.523200700
+2023-12-25 02:08:14 - Regular task performed at 2023-12-25T02:08:14.785309
+2023-12-25 02:08:23 - Regular task performed at 2023-12-25T02:08:23.894347600
+2023-12-25 02:08:33 - Regular task performed at 2023-12-25T02:08:33.882319700
+2023-12-25 02:08:43 - Regular task performed at 2023-12-25T02:08:43.892652900
+2023-12-25 02:08:53 - Regular task performed at 2023-12-25T02:08:53.892182900
+2023-12-25 02:09:03 - Regular task performed at 2023-12-25T02:09:03.888436600
+2023-12-25 02:09:13 - Regular task performed at 2023-12-25T02:09:13.902638400
+2023-12-25 02:09:23 - Regular task performed at 2023-12-25T02:09:23.890566900
+2023-12-25 02:09:33 - Regular task performed at 2023-12-25T02:09:33.884570700
+2023-12-25 02:09:43 - Regular task performed at 2023-12-25T02:09:43.890124700
+2023-12-25 02:09:53 - Regular task performed at 2023-12-25T02:09:53.890405400
+2023-12-25 02:10:03 - Regular task performed at 2023-12-25T02:10:03.890812200
+2023-12-25 02:10:13 - Regular task performed at 2023-12-25T02:10:13.889006500
+2023-12-25 02:10:23 - Regular task performed at 2023-12-25T02:10:23.897483200
+2023-12-25 02:10:33 - Regular task performed at 2023-12-25T02:10:33.889628800
+2023-12-25 02:10:43 - Regular task performed at 2023-12-25T02:10:43.887439300
+2023-12-25 02:10:53 - Regular task performed at 2023-12-25T02:10:53.891366300
+2023-12-25 02:11:05 - Regular task performed at 2023-12-25T02:11:05.979450500
+2023-12-25 02:11:13 - Regular task performed at 2023-12-25T02:11:13.881244400
+2023-12-25 02:11:23 - Regular task performed at 2023-12-25T02:11:23.891675500
+2023-12-25 02:11:33 - Regular task performed at 2023-12-25T02:11:33.884190500
+2023-12-25 02:11:44 - Regular task performed at 2023-12-25T02:11:44.526610400
+2023-12-25 02:11:53 - Regular task performed at 2023-12-25T02:11:53.894715
+2023-12-25 02:12:03 - Regular task performed at 2023-12-25T02:12:03.889138600
+2023-12-25 02:12:13 - Regular task performed at 2023-12-25T02:12:13.885456
+2023-12-25 02:12:23 - Regular task performed at 2023-12-25T02:12:23.891562
+2023-12-25 02:12:33 - Regular task performed at 2023-12-25T02:12:33.886135800
+2023-12-25 02:12:43 - Regular task performed at 2023-12-25T02:12:43.895574200
+2023-12-25 02:12:53 - Regular task performed at 2023-12-25T02:12:53.883469900
+2023-12-25 02:13:04 - Regular task performed at 2023-12-25T02:13:04.722494400
+2023-12-25 02:13:14 - Regular task performed at 2023-12-25T02:13:14.514351900
+2023-12-25 02:13:23 - Regular task performed at 2023-12-25T02:13:23.952837
+2023-12-25 02:13:39 - Regular task performed at 2023-12-25T02:13:39.689784500
+2023-12-25 02:13:53 - Regular task performed at 2023-12-25T02:13:53.791576500
+2023-12-25 02:14:08 - Regular task performed at 2023-12-25T02:14:08.613597
+2023-12-25 02:14:21 - Regular task performed at 2023-12-25T02:14:21.419083200
+2023-12-25 02:14:36 - Regular task performed at 2023-12-25T02:14:36.223008100
+2023-12-25 02:14:49 - Regular task performed at 2023-12-25T02:14:49.553194300
+2023-12-25 02:14:59 - Regular task performed at 2023-12-25T02:14:59.359029100
+2023-12-25 02:15:06 - Regular task performed at 2023-12-25T02:15:06.831244100
+2023-12-25 02:15:14 - Regular task performed at 2023-12-25T02:15:14.014553800
+2023-12-25 02:15:21 - Regular task performed at 2023-12-25T02:15:21.471581900
+2023-12-25 02:15:28 - Regular task performed at 2023-12-25T02:15:28.644924500
+2023-12-25 02:15:35 - Regular task performed at 2023-12-25T02:15:35.840791900
+2023-12-25 02:15:43 - Regular task performed at 2023-12-25T02:15:43.059403300
+2023-12-25 02:15:50 - Regular task performed at 2023-12-25T02:15:50.254037800
+2023-12-25 02:15:57 - Regular task performed at 2023-12-25T02:15:57.459297600
+2023-12-25 02:16:04 - Regular task performed at 2023-12-25T02:16:04.655635100
+2023-12-25 02:16:13 - Regular task performed at 2023-12-25T02:16:13.895598900
+2023-12-25 02:16:23 - Regular task performed at 2023-12-25T02:16:23.885445800
+2023-12-25 02:16:33 - Regular task performed at 2023-12-25T02:16:33.887996900
+2023-12-25 02:16:43 - Regular task performed at 2023-12-25T02:16:43.882547800
+2023-12-25 02:16:53 - Regular task performed at 2023-12-25T02:16:53.895874200
+2023-12-25 02:17:03 - Regular task performed at 2023-12-25T02:17:03.885324600
+2023-12-25 02:17:13 - Regular task performed at 2023-12-25T02:17:13.895484900
+2023-12-25 02:17:23 - Regular task performed at 2023-12-25T02:17:23.881411200
+2023-12-25 02:17:33 - Regular task performed at 2023-12-25T02:17:33.881971900
+2023-12-25 02:17:43 - Regular task performed at 2023-12-25T02:17:43.886657700
+2023-12-25 02:17:53 - Regular task performed at 2023-12-25T02:17:53.890352600
+2023-12-25 02:18:03 - Regular task performed at 2023-12-25T02:18:03.884755200
+2023-12-25 02:18:13 - Regular task performed at 2023-12-25T02:18:13.889442500
+2023-12-25 02:18:23 - Regular task performed at 2023-12-25T02:18:23.897018400
+2023-12-25 02:18:33 - Regular task performed at 2023-12-25T02:18:33.891954600
+2023-12-25 02:18:43 - Regular task performed at 2023-12-25T02:18:43.881381800
+2023-12-25 02:18:53 - Regular task performed at 2023-12-25T02:18:53.894185700
+2023-12-25 02:19:03 - Regular task performed at 2023-12-25T02:19:03.894910200
+2023-12-25 02:19:13 - Regular task performed at 2023-12-25T02:19:13.899818200
+2023-12-25 02:19:23 - Regular task performed at 2023-12-25T02:19:23.884579100
+2023-12-25 02:19:33 - Regular task performed at 2023-12-25T02:19:33.896135500
+2023-12-25 02:19:43 - Regular task performed at 2023-12-25T02:19:43.888724
+2023-12-25 02:19:53 - Regular task performed at 2023-12-25T02:19:53.891227300
+2023-12-25 02:20:03 - Regular task performed at 2023-12-25T02:20:03.894077400
+2023-12-25 02:20:13 - Regular task performed at 2023-12-25T02:20:13.886104500
+2023-12-25 02:20:23 - Regular task performed at 2023-12-25T02:20:23.894621
+2023-12-25 02:20:33 - Regular task performed at 2023-12-25T02:20:33.881995
+2023-12-25 02:20:43 - Regular task performed at 2023-12-25T02:20:43.889986
+2023-12-25 02:20:53 - Regular task performed at 2023-12-25T02:20:53.891182
+2023-12-25 02:21:03 - Regular task performed at 2023-12-25T02:21:03.895750900
+2023-12-25 02:21:13 - Regular task performed at 2023-12-25T02:21:13.882877900
+2023-12-25 02:21:23 - Regular task performed at 2023-12-25T02:21:23.894337900
+2023-12-25 02:21:33 - Regular task performed at 2023-12-25T02:21:33.889810200
+2023-12-25 02:21:43 - Regular task performed at 2023-12-25T02:21:43.894445800
+2023-12-25 02:21:53 - Regular task performed at 2023-12-25T02:21:53.888314400
+2023-12-25 02:22:03 - Regular task performed at 2023-12-25T02:22:03.886456100
+2023-12-25 02:22:13 - Regular task performed at 2023-12-25T02:22:13.881415700
+2023-12-25 02:22:23 - Regular task performed at 2023-12-25T02:22:23.883090900
+2023-12-25 02:22:33 - Regular task performed at 2023-12-25T02:22:33.887219400
+2023-12-25 02:22:43 - Regular task performed at 2023-12-25T02:22:43.888096400
+2023-12-25 02:22:53 - Regular task performed at 2023-12-25T02:22:53.895226800
+2023-12-25 02:23:03 - Regular task performed at 2023-12-25T02:23:03.889927500
+2023-12-25 02:23:13 - Regular task performed at 2023-12-25T02:23:13.889761100
+2023-12-25 02:23:23 - Regular task performed at 2023-12-25T02:23:23.890336300
+2023-12-25 02:23:33 - Regular task performed at 2023-12-25T02:23:33.891445900
+2023-12-25 02:23:43 - Regular task performed at 2023-12-25T02:23:43.891676
+2023-12-25 02:23:53 - Regular task performed at 2023-12-25T02:23:53.883914300
+2023-12-25 02:24:03 - Regular task performed at 2023-12-25T02:24:03.895557800
+2023-12-25 02:24:13 - Regular task performed at 2023-12-25T02:24:13.894863300
+2023-12-25 02:24:23 - Regular task performed at 2023-12-25T02:24:23.892301300
+2023-12-25 02:24:33 - Regular task performed at 2023-12-25T02:24:33.893614800
+2023-12-25 02:24:43 - Regular task performed at 2023-12-25T02:24:43.891677
+2023-12-25 02:24:53 - Regular task performed at 2023-12-25T02:24:53.882882600
+2023-12-25 02:25:03 - Regular task performed at 2023-12-25T02:25:03.882535400
+2023-12-25 02:25:13 - Regular task performed at 2023-12-25T02:25:13.897454100
+2023-12-25 02:25:23 - Regular task performed at 2023-12-25T02:25:23.888415900
+2023-12-25 02:25:33 - Regular task performed at 2023-12-25T02:25:33.887810900
+2023-12-25 02:25:43 - Regular task performed at 2023-12-25T02:25:43.894877600
+2023-12-25 02:25:53 - Regular task performed at 2023-12-25T02:25:53.882310
+2023-12-25 02:26:03 - Regular task performed at 2023-12-25T02:26:03.886857700
+2023-12-25 02:26:13 - Regular task performed at 2023-12-25T02:26:13.888144500
+2023-12-25 02:26:23 - Regular task performed at 2023-12-25T02:26:23.884336400
+2023-12-25 02:26:33 - Regular task performed at 2023-12-25T02:26:33.884266
+2023-12-25 02:26:43 - Regular task performed at 2023-12-25T02:26:43.893047400
+2023-12-25 02:26:53 - Regular task performed at 2023-12-25T02:26:53.889492700
+2023-12-25 02:27:03 - Regular task performed at 2023-12-25T02:27:03.882939700
+2023-12-25 02:27:13 - Regular task performed at 2023-12-25T02:27:13.892563600
+2023-12-25 02:27:23 - Regular task performed at 2023-12-25T02:27:23.892792500
+2023-12-25 02:27:33 - Regular task performed at 2023-12-25T02:27:33.884978600
+2023-12-25 02:27:43 - Regular task performed at 2023-12-25T02:27:43.912665200
+2023-12-25 02:27:53 - Regular task performed at 2023-12-25T02:27:53.893938800
+2023-12-25 02:28:03 - Regular task performed at 2023-12-25T02:28:03.893757800
+2023-12-25 02:28:13 - Regular task performed at 2023-12-25T02:28:13.884609
+2023-12-25 02:28:23 - Regular task performed at 2023-12-25T02:28:23.886058800
+2023-12-25 02:28:33 - Regular task performed at 2023-12-25T02:28:33.895432600
+2023-12-25 02:28:43 - Regular task performed at 2023-12-25T02:28:43.881965700
+2023-12-25 02:28:53 - Regular task performed at 2023-12-25T02:28:53.885523800
+2023-12-25 02:29:03 - Regular task performed at 2023-12-25T02:29:03.895080100
+2023-12-25 02:29:13 - Regular task performed at 2023-12-25T02:29:13.889174
+2023-12-25 02:29:23 - Regular task performed at 2023-12-25T02:29:23.892544500
+2023-12-25 02:29:33 - Regular task performed at 2023-12-25T02:29:33.893330900
+2023-12-25 02:29:43 - Regular task performed at 2023-12-25T02:29:43.886045100
+2023-12-25 02:29:53 - Regular task performed at 2023-12-25T02:29:53.895160600
+2023-12-25 02:30:03 - Regular task performed at 2023-12-25T02:30:03.886557800
+2023-12-25 02:30:13 - Regular task performed at 2023-12-25T02:30:13.889632200
+2023-12-25 02:30:23 - Regular task performed at 2023-12-25T02:30:23.887177600
+2023-12-25 02:30:33 - Regular task performed at 2023-12-25T02:30:33.884166400
+2023-12-25 02:30:43 - Regular task performed at 2023-12-25T02:30:43.895536700
+2023-12-25 02:30:53 - Regular task performed at 2023-12-25T02:30:53.892006900
+2023-12-25 02:31:03 - Regular task performed at 2023-12-25T02:31:03.888860600
+2023-12-25 02:31:13 - Regular task performed at 2023-12-25T02:31:13.886167200
+2023-12-25 02:31:23 - Regular task performed at 2023-12-25T02:31:23.887214900
+2023-12-25 02:31:33 - Regular task performed at 2023-12-25T02:31:33.881599
+2023-12-25 02:31:43 - Regular task performed at 2023-12-25T02:31:43.892761800
+2023-12-25 02:31:53 - Regular task performed at 2023-12-25T02:31:53.887307100
+2023-12-25 02:32:03 - Regular task performed at 2023-12-25T02:32:03.894438700
+2023-12-25 02:32:13 - Regular task performed at 2023-12-25T02:32:13.888877300
+2023-12-25 02:32:23 - Regular task performed at 2023-12-25T02:32:23.893293600
+2023-12-25 02:32:33 - Regular task performed at 2023-12-25T02:32:33.890245400
+2023-12-25 02:32:43 - Regular task performed at 2023-12-25T02:32:43.889402800
+2023-12-25 02:32:53 - Regular task performed at 2023-12-25T02:32:53.892355700
+2023-12-25 02:33:04 - Regular task performed at 2023-12-25T02:33:04.930366400
+2023-12-25 02:33:16 - Regular task performed at 2023-12-25T02:33:16.145443300
+2023-12-25 02:33:24 - Regular task performed at 2023-12-25T02:33:24.164423500
+2023-12-25 02:33:33 - Regular task performed at 2023-12-25T02:33:33.887317900
+2023-12-25 02:33:43 - Regular task performed at 2023-12-25T02:33:43.887942700
+2023-12-25 02:33:53 - Regular task performed at 2023-12-25T02:33:53.893877900
+2023-12-25 02:34:03 - Regular task performed at 2023-12-25T02:34:03.893686600
+2023-12-25 02:34:13 - Regular task performed at 2023-12-25T02:34:13.882916400
+2023-12-25 02:34:23 - Regular task performed at 2023-12-25T02:34:23.889223200
+2023-12-25 02:34:33 - Regular task performed at 2023-12-25T02:34:33.887972700
+2023-12-25 02:34:43 - Regular task performed at 2023-12-25T02:34:43.895639700
+2023-12-25 02:34:53 - Regular task performed at 2023-12-25T02:34:53.884691
+2023-12-25 02:35:03 - Regular task performed at 2023-12-25T02:35:03.888761300
+2023-12-25 02:35:13 - Regular task performed at 2023-12-25T02:35:13.882559100
+2023-12-25 02:35:24 - Regular task performed at 2023-12-25T02:35:24.932262
+2023-12-25 02:35:33 - Regular task performed at 2023-12-25T02:35:33.882185200
+2023-12-25 02:35:43 - Regular task performed at 2023-12-25T02:35:43.893353400
+2023-12-25 02:35:53 - Regular task performed at 2023-12-25T02:35:53.881405600
+2023-12-25 02:36:03 - Regular task performed at 2023-12-25T02:36:03.894985600
+2023-12-25 02:36:13 - Regular task performed at 2023-12-25T02:36:13.893750600
+2023-12-25 02:36:23 - Regular task performed at 2023-12-25T02:36:23.889615600
+2023-12-25 02:36:33 - Regular task performed at 2023-12-25T02:36:33.895255900
+2023-12-25 02:36:43 - Regular task performed at 2023-12-25T02:36:43.888915700
+2023-12-25 02:36:53 - Regular task performed at 2023-12-25T02:36:53.895450400
+2023-12-25 02:37:03 - Regular task performed at 2023-12-25T02:37:03.881821400
+2023-12-25 02:37:13 - Regular task performed at 2023-12-25T02:37:13.881691700
+2023-12-25 02:37:23 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-25 02:37:23 - HikariPool-1 - Shutdown initiated...
+2023-12-25 02:37:23 - HikariPool-1 - Shutdown completed.
+2023-12-25 02:43:37 - Starting InternetMonitorApplication using Java 19.0.2 with PID 20300 (E:\Work\personalProjects\Repo\internet-monitor\target\classes started by Admin in E:\Work\personalProjects\Repo\internet-monitor)
+2023-12-25 02:43:37 - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 02:43:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-25 02:43:39 - Finished Spring Data repository scanning in 170 ms. Found 1 JPA repository interface.
+2023-12-25 02:43:41 - Tomcat initialized with port 8080 (http)
+2023-12-25 02:43:41 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-25 02:43:41 - Starting service [Tomcat]
+2023-12-25 02:43:41 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2023-12-25 02:43:41 - Initializing Spring embedded WebApplicationContext
+2023-12-25 02:43:41 - Root WebApplicationContext: initialization completed in 4064 ms
+2023-12-25 02:43:42 - HikariPool-1 - Starting...
+2023-12-25 02:43:42 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@664e848c
+2023-12-25 02:43:42 - HikariPool-1 - Start completed.
+2023-12-25 02:43:43 - Set default schema name to public
+2023-12-25 02:43:44 - Reading from public.databasechangelog
+2023-12-25 02:43:44 - Reading from public.databasechangelog
+2023-12-25 02:43:44 - UPDATE SUMMARY
+2023-12-25 02:43:44 - Run:                          0
+2023-12-25 02:43:44 - Previously run:               2
+2023-12-25 02:43:44 - Filtered out:                 0
+2023-12-25 02:43:44 - -------------------------------
+2023-12-25 02:43:44 - Total change sets:            2
+2023-12-25 02:43:44 - Update summary generated
+2023-12-25 02:43:44 - Successfully released change log lock
+2023-12-25 02:43:44 - Command execution complete
+2023-12-25 02:43:44 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-25 02:43:44 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2023-12-25 02:43:44 - HHH000026: Second-level cache disabled
+2023-12-25 02:43:45 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-25 02:43:45 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-25 02:43:47 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-25 02:43:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-25 02:43:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-25 02:43:48 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-25 02:43:49 - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-25 02:43:49 - Tomcat started on port 8080 (http) with context path ''
+2023-12-25 02:43:49 - Started InternetMonitorApplication in 12.955 seconds (process running for 14.223)
+2023-12-25 02:43:49 - Regular task performed at 2023-12-25T02:43:49.458123
+2023-12-25 02:44:40 - Regular task performed at 2023-12-25T02:44:40.264883600
+2023-12-25 02:44:55 - Regular task performed at 2023-12-25T02:44:55.181700300
+2023-12-25 02:45:02 - Regular task performed at 2023-12-25T02:45:02.409729100
+2023-12-25 02:45:09 - Regular task performed at 2023-12-25T02:45:09.602575700
+2023-12-25 02:45:14 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-25 02:45:14 - Initializing Servlet 'dispatcherServlet'
+2023-12-25 02:45:14 - Completed initialization in 1 ms
+2023-12-25 02:45:16 - Regular task performed at 2023-12-25T02:45:16.996750600
+2023-12-25 02:45:24 - Regular task performed at 2023-12-25T02:45:24.185855600
+2023-12-25 02:45:31 - Regular task performed at 2023-12-25T02:45:31.392832100
+2023-12-25 02:45:38 - Regular task performed at 2023-12-25T02:45:38.686285900
+2023-12-25 02:45:45 - Regular task performed at 2023-12-25T02:45:45.849482200
+2023-12-25 02:45:52 - Regular task performed at 2023-12-25T02:45:52.998341900
+2023-12-25 02:46:00 - Regular task performed at 2023-12-25T02:46:00.148296700
+2023-12-25 02:46:07 - Regular task performed at 2023-12-25T02:46:07.296722
+2023-12-25 02:46:14 - Regular task performed at 2023-12-25T02:46:14.519265800
+2023-12-25 02:46:21 - Regular task performed at 2023-12-25T02:46:21.705831400
+2023-12-25 02:46:28 - Regular task performed at 2023-12-25T02:46:28.931739300
+2023-12-25 02:46:36 - Regular task performed at 2023-12-25T02:46:36.253354600
+2023-12-25 02:46:43 - Regular task performed at 2023-12-25T02:46:43.451832200
+2023-12-25 02:46:50 - Regular task performed at 2023-12-25T02:46:50.638950400
+2023-12-25 02:46:59 - Regular task performed at 2023-12-25T02:46:59.443247400
+2023-12-25 02:47:09 - Regular task performed at 2023-12-25T02:47:09.439970500
+2023-12-25 02:47:19 - Regular task performed at 2023-12-25T02:47:19.445589800
+2023-12-25 02:47:29 - Regular task performed at 2023-12-25T02:47:29.453604100
+2023-12-25 02:47:39 - Regular task performed at 2023-12-25T02:47:39.450284400
+2023-12-25 02:47:49 - Regular task performed at 2023-12-25T02:47:49.446167400
+2023-12-25 02:47:59 - Regular task performed at 2023-12-25T02:47:59.447693800
+2023-12-25 02:48:09 - Regular task performed at 2023-12-25T02:48:09.442327600
+2023-12-25 02:48:19 - Regular task performed at 2023-12-25T02:48:19.442577500
+2023-12-25 02:48:29 - Regular task performed at 2023-12-25T02:48:29.444087200
+2023-12-25 02:48:39 - Regular task performed at 2023-12-25T02:48:39.441727
+2023-12-25 02:48:49 - Regular task performed at 2023-12-25T02:48:49.438940900
+2023-12-25 02:48:59 - Regular task performed at 2023-12-25T02:48:59.447992
+2023-12-25 02:49:09 - Regular task performed at 2023-12-25T02:49:09.442585
+2023-12-25 02:49:19 - Regular task performed at 2023-12-25T02:49:19.446735500
+2023-12-25 02:49:29 - Regular task performed at 2023-12-25T02:49:29.445323300
+2023-12-25 02:49:39 - Regular task performed at 2023-12-25T02:49:39.443189600
+2023-12-25 02:49:49 - Regular task performed at 2023-12-25T02:49:49.438955100
+2023-12-25 02:49:59 - Regular task performed at 2023-12-25T02:49:59.445482500
+2023-12-25 02:50:09 - Regular task performed at 2023-12-25T02:50:09.453113200
+2023-12-25 02:50:19 - Regular task performed at 2023-12-25T02:50:19.445430900
+2023-12-25 02:50:29 - Regular task performed at 2023-12-25T02:50:29.450281400
+2023-12-25 02:50:39 - Regular task performed at 2023-12-25T02:50:39.449852700
+2023-12-25 02:50:49 - Regular task performed at 2023-12-25T02:50:49.441506600
+2023-12-25 02:50:59 - Regular task performed at 2023-12-25T02:50:59.453422500
+2023-12-25 02:51:10 - Regular task performed at 2023-12-25T02:51:10.580812400
+2023-12-25 02:51:19 - Regular task performed at 2023-12-25T02:51:19.447042700
+2023-12-25 02:51:29 - Regular task performed at 2023-12-25T02:51:29.447869400
+2023-12-25 02:51:39 - Regular task performed at 2023-12-25T02:51:39.444038400
+2023-12-25 02:51:49 - Regular task performed at 2023-12-25T02:51:49.443739900
+2023-12-25 02:51:59 - Regular task performed at 2023-12-25T02:51:59.453162500
+2023-12-25 02:52:09 - Regular task performed at 2023-12-25T02:52:09.453221100
+2023-12-25 02:52:19 - Regular task performed at 2023-12-25T02:52:19.445407900
+2023-12-25 02:52:29 - Regular task performed at 2023-12-25T02:52:29.452340
+2023-12-25 02:52:39 - Regular task performed at 2023-12-25T02:52:39.450552100
+2023-12-25 02:52:49 - Regular task performed at 2023-12-25T02:52:49.453018300

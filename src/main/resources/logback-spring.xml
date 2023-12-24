@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Define the log file name and path here -->
+    <property name="LOG_PATH" value="./config/logs" />
+    <property name="LOG_FILE" value="${LOG_PATH}/internet-monitor.log" />
+
+    <!-- Define appender for a file -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_FILE}</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover with max history of 30 days -->
+            <fileNamePattern>${LOG_PATH}/app.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Log to file appender and set the logging level -->
+    <root level="info">
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>
