@@ -1,5 +1,6 @@
 package com.gobartsdev.internetmonitor.service;
 
+import com.gobartsdev.internetmonitor.constants.IcmpConstants;
 import com.gobartsdev.internetmonitor.model.Icmp;
 import com.gobartsdev.internetmonitor.model.IcmpMetrics;
 import com.gobartsdev.internetmonitor.model.request.IcmpSearchRequest;
@@ -67,8 +68,7 @@ public class IcmpServiceImpl implements IcmpService{
                     IcmpMetrics metrics = new IcmpMetrics();
                     metrics.setSequence(i);
                     i++;
-                    metrics.setTtl(Integer.parseInt(matcher.group(3)));
-                    metrics.setRtt(Double.parseDouble(matcher.group(2)));
+                    populateIcmpMetricsData(metrics, osSpecificConfig.get(OS.getValue()), matcher);
                     packets.put(i, metrics);
 
                 } else if (summaryMatcher.find()) {
@@ -79,9 +79,7 @@ public class IcmpServiceImpl implements IcmpService{
                     icmp.setPackets(packets);
                 } else if (consolidatedMatcher.find()) {
 
-                    icmp.setAvgRtt(Double.parseDouble(consolidatedMatcher.group(3)));
-                    icmp.setMinRtt(Double.parseDouble(consolidatedMatcher.group(1)));
-                    icmp.setMaxRtt(Double.parseDouble(consolidatedMatcher.group(2)));
+                    populateIcmpData(icmp, osSpecificConfig.get(OS.getValue()), consolidatedMatcher);
                 }
 
             }
@@ -106,6 +104,28 @@ public class IcmpServiceImpl implements IcmpService{
     @Override
     public List<String> getClients() {
         return icmpRepository.findDistinctClients().stream().filter(Objects::nonNull).collect(Collectors.toList());
+    }
+
+    private void populateIcmpMetricsData(IcmpMetrics metrics, String osName, Matcher matcher){
+        if(osName.contains("lin")){
+            metrics.setTtl(Integer.parseInt(matcher.group(2)));
+            metrics.setRtt(Double.parseDouble(matcher.group(3)));
+        } else if(osName.contains("win")){
+            metrics.setTtl(Integer.parseInt(matcher.group(3)));
+            metrics.setRtt(Double.parseDouble(matcher.group(2)));
+        }
+    }
+
+    private void populateIcmpData(Icmp icmp, String osName, Matcher consolidatedMatcher){
+        if(osName.contains("lin")){
+            icmp.setAvgRtt(Double.parseDouble(consolidatedMatcher.group(2)));
+            icmp.setMinRtt(Double.parseDouble(consolidatedMatcher.group(1)));
+            icmp.setMaxRtt(Double.parseDouble(consolidatedMatcher.group(3)));
+        } else if(osName.contains("win")){
+            icmp.setAvgRtt(Double.parseDouble(consolidatedMatcher.group(3)));
+            icmp.setMinRtt(Double.parseDouble(consolidatedMatcher.group(1)));
+            icmp.setMaxRtt(Double.parseDouble(consolidatedMatcher.group(2)));
+        }
     }
 
 }

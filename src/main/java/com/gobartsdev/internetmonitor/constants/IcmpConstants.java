@@ -2,6 +2,7 @@ package com.gobartsdev.internetmonitor.constants;
 
 public enum IcmpConstants {
 
+    OS("os"),
     PING_COMMAND("command"),
     COUNT_FLAG("countFlag"),
     PING_HOST("host"),
